@@ -1,0 +1,214 @@
+{
+  "resolvedId": "/Users/eladventures/Desktop/parmapos/src/layouts/default copy.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\n  <div :data-theme=\"theme\">\n    <div class=\"navbar fixed bg-base-100 z-40 shadow-sm\">\n      <div class=\"navbar-start\">\n        <a class=\"btn btn-ghost md:text-xl\">Nuxt + Tailwind + DaisyUI Template</a>\n      </div>\n      <div class=\"navbar-center hidden lg:flex\">\n        <!-- TODO: You can add menu here -->\n      </div>\n      <div class=\"navbar-end\">\n        <select v-model=\"theme\" class=\"select select-primary md:w-full md:max-w-xs\">\n          <option disabled selected>Select Theme</option>\n          <option v-for=\"theme in themes\" :value=\"theme\" :key=\"theme\">\n            <span class=\"uppercase\">{{ theme }}</span>\n          </option>\n        </select>\n      </div>\n    </div>\n    <slot />\n    <footer class=\"footer footer-center p-10 bg-base-50\">\n      <div>\n        <h1 class=\"text-2xl md:text-3xl font-bold\">Nuxt + Tailwind + DaisyUI Template</h1>\n        <p class=\"md:font-bold\">\n          Create beautiful and fast websites without the tedious setup\n        </p>\n        <p>Copyright © {{new Date().getFullYear()}} - All right reserved</p>\n      </div>\n      <div>\n        <div class=\"grid grid-flow-col gap-4\">\n          <a href=\"#\" target=\"_blank\">\n            <i class=\"lab la-twitter text-4xl\"></i>\n          </a>\n          <a href=\"https://github.com/mycurelabs/nuxt-tailwind-template\" target=\"_blank\">\n            <i class=\"lab la-github text-4xl\"></i>\n          </a>\n          <a href=\"#\" target=\"_blank\">\n            <i class=\"lab la-facebook text-4xl\"></i>\n          </a>\n        </div>\n      </div>\n    </footer>\n  </div>\n</template>\n\n<script>\nimport { ref, watch, onMounted } from 'vue';\nconst THEMES = [\n  'light',\n  'dark',\n  'cupcake',\n  'bumblebee',\n  'emerald',\n  'corporate',\n  'synthwave',\n  'retro',\n  'cyberpunk',\n  'valentine',\n  'halloween',\n  'garden',\n  'forest',\n  'aqua',\n  'lofi',\n  'pastel',\n  'fantasy',\n  'wireframe',\n  'black',\n  'luxury',\n  'dracula',\n  'cmyk',\n  'autumn',\n  'business',\n  'acid',\n  'lemonade',\n  'night',\n  'coffee',\n  'winter',\n];\nexport default {\n  setup () {\n    const theme = ref(null);\n    watch(theme, (value) => {\n      localStorage.setItem('daisyui-theme', value);\n    });\n    onMounted(() => {\n      theme.value = localStorage.getItem('daisyui-theme') || 'dark';\n    });\n    return {\n      theme,\n      themes: THEMES,\n    };\n  },\n};\n</script>\n",
+      "start": 1709790721806,
+      "end": 1709790721836,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1709790721836,
+      "end": 1709790721836,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1709790721836,
+      "end": 1709790721836,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1709790721836,
+      "end": 1709790721836,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1709790721836,
+      "end": 1709790721836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1709790721836,
+      "end": 1709790721836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1709790721836,
+      "end": 1709790721836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1709790721836,
+      "end": 1709790721836,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "\nimport { ref, watch, onMounted } from 'vue';\nconst THEMES = [\n  'light',\n  'dark',\n  'cupcake',\n  'bumblebee',\n  'emerald',\n  'corporate',\n  'synthwave',\n  'retro',\n  'cyberpunk',\n  'valentine',\n  'halloween',\n  'garden',\n  'forest',\n  'aqua',\n  'lofi',\n  'pastel',\n  'fantasy',\n  'wireframe',\n  'black',\n  'luxury',\n  'dracula',\n  'cmyk',\n  'autumn',\n  'business',\n  'acid',\n  'lemonade',\n  'night',\n  'coffee',\n  'winter',\n];\nconst _sfc_main = {\n  setup () {\n    const theme = ref(null);\n    watch(theme, (value) => {\n      localStorage.setItem('daisyui-theme', value);\n    });\n    onMounted(() => {\n      theme.value = localStorage.getItem('daisyui-theme') || 'dark';\n    });\n    return {\n      theme,\n      themes: THEMES,\n    };\n  },\n};\n\nimport { createElementVNode as _createElementVNode, renderList as _renderList, Fragment as _Fragment, openBlock as _openBlock, createElementBlock as _createElementBlock, toDisplayString as _toDisplayString, vModelSelect as _vModelSelect, withDirectives as _withDirectives, renderSlot as _renderSlot, createStaticVNode as _createStaticVNode } from \"vue\"\n\nconst _hoisted_1 = [\"data-theme\"]\nconst _hoisted_2 = { class: \"navbar fixed bg-base-100 z-40 shadow-sm\" }\nconst _hoisted_3 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"navbar-start\" }, [\n  /*#__PURE__*/_createElementVNode(\"a\", { class: \"btn btn-ghost md:text-xl\" }, \"Nuxt + Tailwind + DaisyUI Template\")\n], -1)\nconst _hoisted_4 = /*#__PURE__*/_createElementVNode(\"div\", { class: \"navbar-center hidden lg:flex\" }, null, -1)\nconst _hoisted_5 = { class: \"navbar-end\" }\nconst _hoisted_6 = /*#__PURE__*/_createElementVNode(\"option\", {\n  disabled: \"\",\n  selected: \"\"\n}, \"Select Theme\", -1)\nconst _hoisted_7 = [\"value\"]\nconst _hoisted_8 = { class: \"uppercase\" }\nconst _hoisted_9 = { class: \"footer footer-center p-10 bg-base-50\" }\nconst _hoisted_10 = /*#__PURE__*/_createElementVNode(\"h1\", { class: \"text-2xl md:text-3xl font-bold\" }, \"Nuxt + Tailwind + DaisyUI Template\", -1)\nconst _hoisted_11 = /*#__PURE__*/_createElementVNode(\"p\", { class: \"md:font-bold\" }, \" Create beautiful and fast websites without the tedious setup \", -1)\nconst _hoisted_12 = /*#__PURE__*/_createStaticVNode(\"<div><div class=\\\"grid grid-flow-col gap-4\\\"><a href=\\\"#\\\" target=\\\"_blank\\\"><i class=\\\"lab la-twitter text-4xl\\\"></i></a><a href=\\\"https://github.com/mycurelabs/nuxt-tailwind-template\\\" target=\\\"_blank\\\"><i class=\\\"lab la-github text-4xl\\\"></i></a><a href=\\\"#\\\" target=\\\"_blank\\\"><i class=\\\"lab la-facebook text-4xl\\\"></i></a></div></div>\", 1)\n\nfunction _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {\n  return (_openBlock(), _createElementBlock(\"div\", { \"data-theme\": $setup.theme }, [\n    _createElementVNode(\"div\", _hoisted_2, [\n      _hoisted_3,\n      _hoisted_4,\n      _createElementVNode(\"div\", _hoisted_5, [\n        _withDirectives(_createElementVNode(\"select\", {\n          \"onUpdate:modelValue\": _cache[0] || (_cache[0] = $event => (($setup.theme) = $event)),\n          class: \"select select-primary md:w-full md:max-w-xs\"\n        }, [\n          _hoisted_6,\n          (_openBlock(true), _createElementBlock(_Fragment, null, _renderList($setup.themes, (theme) => {\n            return (_openBlock(), _createElementBlock(\"option\", {\n              value: theme,\n              key: theme\n            }, [\n              _createElementVNode(\"span\", _hoisted_8, _toDisplayString(theme), 1)\n            ], 8, _hoisted_7))\n          }), 128))\n        ], 512), [\n          [_vModelSelect, $setup.theme]\n        ])\n      ])\n    ]),\n    _renderSlot(_ctx.$slots, \"default\"),\n    _createElementVNode(\"footer\", _hoisted_9, [\n      _createElementVNode(\"div\", null, [\n        _hoisted_10,\n        _hoisted_11,\n        _createElementVNode(\"p\", null, \"Copyright © \" + _toDisplayString(new Date().getFullYear()) + \" - All right reserved\", 1)\n      ]),\n      _hoisted_12\n    ])\n  ], 8, _hoisted_1))\n}\n\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render]])",
+      "start": 1709790721836,
+      "end": 1709790721840,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1709790721840,
+      "end": 1709790721840,
+      "order": "normal"
+    }
+  ]
+}
