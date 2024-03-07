@@ -4,7 +4,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "error-404.DTBK6JaU.js",
+    "file": "error-404.DD4O4o4S.js",
     "src": "../node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -23,7 +23,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "error-500.QJ5kieIu.js",
+    "file": "error-500.ByA27AGy.js",
     "src": "../node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -42,11 +42,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "entry.C222DzEA.js",
+    "file": "entry.BJBq6alb.js",
     "src": "../node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
     "dynamicImports": [
       "middleware/exclude-route.js",
+      "layouts/default copy 2.vue",
       "layouts/default copy.vue",
       "layouts/default.vue",
       "../node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
@@ -63,12 +64,12 @@ const client_manifest = {
     "prefetch": true,
     "preload": true
   },
-  "_parmazip-logo.DcWWGLQi.js": {
+  "_parmazip-logo.CGVtVD0P.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "parmazip-logo.DcWWGLQi.js",
+    "file": "parmazip-logo.CGVtVD0P.js",
     "imports": [
       "../node_modules/nuxt/dist/app/entry.js"
     ],
@@ -173,12 +174,25 @@ const client_manifest = {
     "file": "pharmacy-pos-screenshot.1_xE5jgZ.png",
     "src": "assets/images/pharmacy-pos-screenshot.png"
   },
+  "layouts/default copy 2.vue": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "file": "default copy 2.bRgE78yl.js",
+    "src": "layouts/default copy 2.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "_parmazip-logo.CGVtVD0P.js",
+      "../node_modules/nuxt/dist/app/entry.js"
+    ]
+  },
   "layouts/default copy.vue": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "default copy.C8g06qC4.js",
+    "file": "default copy.CqSQdr0U.js",
     "src": "layouts/default copy.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -190,11 +204,11 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "default.CY_332xh.js",
+    "file": "default.Bb4VOz3q.js",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_parmazip-logo.DcWWGLQi.js",
+      "_parmazip-logo.CGVtVD0P.js",
       "../node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -203,7 +217,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "exclude-route.CRldV8FM.js",
+    "file": "exclude-route.V8tUi7uv.js",
     "src": "middleware/exclude-route.js",
     "isDynamicEntry": true,
     "imports": [
@@ -215,12 +229,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.BJP0g-cJ.js",
+    "file": "index.D7zP6cu1.js",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "../node_modules/nuxt/dist/app/entry.js",
-      "_parmazip-logo.DcWWGLQi.js"
+      "_parmazip-logo.CGVtVD0P.js"
     ],
     "css": [],
     "assets": [

@@ -1,19 +1,22 @@
-import { ref, watch, mergeProps, useSSRContext } from "vue";
-import { ssrRenderAttrs, ssrRenderAttr, ssrRenderSlot } from "vue/server-renderer";
-import { _ as _imports_0 } from "./parmazip-logo-DNMBOJQA.js";
-import { _ as _export_sfc } from "../server.mjs";
-import "#internal/nitro";
-import "ofetch";
-import "hookable";
-import "unctx";
-import "h3";
-import "unhead";
-import "@unhead/shared";
-import "vue-router";
-import "ufo";
-import "defu";
-import "klona";
-import "devalue";
+import { ref, watch, mergeProps, useSSRContext } from 'vue';
+import { ssrRenderAttrs, ssrRenderAttr, ssrRenderSlot } from 'vue/server-renderer';
+import { _ as _imports_0 } from './parmazip-logo-DNMBOJQA.mjs';
+import { _ as _export_sfc } from './server.mjs';
+import '../routes/renderer.mjs';
+import 'vue-bundle-renderer/runtime';
+import '../runtime.mjs';
+import 'node:http';
+import 'node:https';
+import 'fs';
+import 'path';
+import 'node:fs';
+import 'node:url';
+import 'devalue';
+import '@unhead/ssr';
+import 'unhead';
+import '@unhead/shared';
+import 'vue-router';
+
 const THEMES = [
   "light",
   "dark",
@@ -68,11 +71,10 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
 const _sfc_setup = _sfc_main.setup;
 _sfc_main.setup = (props, ctx) => {
   const ssrContext = useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("layouts/default.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("layouts/default copy 2.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
-const _default = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
-export {
-  _default as default
-};
-//# sourceMappingURL=default-BV_py7Xw.js.map
+const default_copy_2 = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+
+export { default_copy_2 as default };
+//# sourceMappingURL=default copy 2-KvBHbv3U.mjs.map

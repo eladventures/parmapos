@@ -959,8 +959,9 @@ const plugins = [
   components_plugin_KR1HBZs4kY
 ];
 const layouts = {
+  "default copy 2": () => import('./default copy 2-KvBHbv3U.mjs').then((m) => m.default || m),
   "default copy": () => import('./default copy-kHM1DbdQ.mjs').then((m) => m.default || m),
-  default: () => import('./default-BV_py7Xw.mjs').then((m) => m.default || m)
+  default: () => import('./default-BPT2S-zR.mjs').then((m) => m.default || m)
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",

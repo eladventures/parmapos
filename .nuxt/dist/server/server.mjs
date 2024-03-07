@@ -863,8 +863,9 @@ const plugins = [
   components_plugin_KR1HBZs4kY
 ];
 const layouts = {
+  "default copy 2": () => import("./_nuxt/default copy 2-KvBHbv3U.js").then((m) => m.default || m),
   "default copy": () => import("./_nuxt/default copy-kHM1DbdQ.js").then((m) => m.default || m),
-  default: () => import("./_nuxt/default-BV_py7Xw.js").then((m) => m.default || m)
+  default: () => import("./_nuxt/default-BPT2S-zR.js").then((m) => m.default || m)
 };
 const LayoutLoader = defineComponent({
   name: "LayoutLoader",
