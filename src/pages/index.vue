@@ -30,6 +30,7 @@
           >
         </div>
       </div>
+
       <div
         class="flex items-center justify-center p-6 mt-8 lg:mt-0 h-[desired-height] sm:h-[desired-height] lg:h-[desired-height] xl:h-[desired-height] 2xl:h-[desired-height]"
       >
@@ -330,9 +331,7 @@
 
   <section class="p-4 lg:p-8 dark:bg-gray-800 dark:text-gray-100 mb-40">
     <div class="max-w-6xl container mx-auto space-y-12">
-      <div
-        class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row border"
-      >
+      <div class="flex flex-col overflow-hidden lg:flex-row">
         <img
           src="../assets/images/parmazip-how-1.png"
           alt=""
@@ -355,21 +354,18 @@
           </ul>
         </div>
       </div>
-      <div
-        class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse border"
-      >
+      <div class="flex flex-col overflow-hidden lg:flex-row-reverse">
         <img
           src="../assets/images/parmazip-how-2.png"
           alt=""
           class="h-80 dark:bg-gray-500 aspect-video"
         />
         <div class="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900">
-          <h3 class="text-3xl font-bold">Powerful Point of Sale</h3>
-          <p class="my-6 dark:text-gray-400">
-            Revolutionize your pharmacy operations with our specialized POS
-            feature
+          <h3 class="text-3xl font-bold text-right">Powerful Point of Sale</h3>
+          <p class="my-6 dark:text-gray-400 text-right">
+            Revolutionize pharmacy operations with our specialized POS feature.
           </p>
-          <ul class="list-disc pl-5 space-y-2">
+          <ul class="list-disc pl-5 space-y-2 ml-auto w-max">
             <li>Beautiful digital and printable receipts</li>
             <li>Record discounts and coverages</li>
             <li>Capture prescription information</li>
@@ -377,9 +373,7 @@
           </ul>
         </div>
       </div>
-      <div
-        class="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row border"
-      >
+      <div class="flex flex-col overflow-hidden lg:flex-row">
         <img
           src="../assets/images/parmazip-how-3.png"
           alt=""
@@ -407,7 +401,7 @@
       class="-mt-40 px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 lg:py-20 dark:bg-gray-800 dark:text-gray-100"
     >
       <h2 class="mb-8 text-4xl font-bold leadi text-center">
-        ...and all the tools made to simplify and automate your workflow and
+        Plus all the tools made to simplify and automate your workflow and
         practice.
       </h2>
       <ul class="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
@@ -999,7 +993,7 @@
 import { useHead } from "#app";
 import { definePageMeta } from "#imports";
 import GenericPanel from "~/components/commons/GenericPanel";
-import ogBanner from "../assets/images/nuxtwind-daisy-og-banner.jpg";
+import ogBanner from "../assets/images/parmazip-banner.png";
 import featuresInventory from "../assets/images/features-inventory.png";
 import featuresPOS from "../assets/images/features-pos.png";
 import featuresReports from "../assets/images/features-reports.png";
