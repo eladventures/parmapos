@@ -10,7 +10,7 @@
           class="flex items-center p-2"
         >
           <img
-            src="../assets/images/parmazip-logo.png"
+            src="../assets/images/parmazip-logo-long.png"
             alt="Your Logo"
             class="object-contain h-6 mt-1 w-auto"
           />
@@ -43,9 +43,10 @@
           <li class="flex">
             <a
               rel="noopener noreferrer"
-              href="#"
+              href="https://blog.parmazip.com/about/"
               class="flex items-center px-4 -mb-1"
-              >About Us</a
+              target="_blank"
+              >About</a
             >
           </li>
         </ul>
