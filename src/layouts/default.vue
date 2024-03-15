@@ -52,11 +52,14 @@
       </div>
       <!-- Login button added here on the right -->
       <div class="items-center flex-shrink-0 hidden lg:flex">
-        <button
-          class="px-4 py-1 font-semibold rounded bg-red-400 text-white text-sm"
+        <a
+          href="https://ph-prelaunch-waitlist.getresponsesite.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block px-4 py-1 font-semibold rounded bg-red-400 text-white text-sm"
         >
           Join Waitlist
-        </button>
+        </a>
       </div>
       <!-- Adjusted mobile menu button -->
       <button class="p-4 lg:hidden bg-red-400 text-white">

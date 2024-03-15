@@ -24,7 +24,8 @@
         >
           <a
             rel="noopener noreferrer"
-            href="#"
+            href="https://ph-prelaunch-waitlist.getresponsesite.com/"
+            target="_blank"
             class="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900 bg-red-400 text-white"
             >Join the waitlist</a
           >
@@ -244,6 +245,18 @@
         </p>
       </div>
     </div>
+  </div>
+
+  <div
+    class="flex flex-col space-y-4 mt-10 mb-20 items-center justify-center sm:flex-row sm:space-y-0 sm:space-x-4"
+  >
+    <a
+      rel="noopener noreferrer"
+      href="https://ph-prelaunch-waitlist.getresponsesite.com/"
+      target="_blank"
+      class="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900 bg-red-400 text-white"
+      >Join the waitlist</a
+    >
   </div>
 
   <!-- DEMO VIDEO -->
@@ -641,6 +654,19 @@
     </div>
   </section>
 
+  <!--Join Button -->
+  <div
+    class="flex flex-col -mt-10 mb-10 space-y-4 items-center justify-center sm:flex-row sm:space-y-0 sm:space-x-4"
+  >
+    <a
+      rel="noopener noreferrer"
+      href="https://ph-prelaunch-waitlist.getresponsesite.com/"
+      target="_blank"
+      class="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900 bg-red-400 text-white"
+      >Join the waitlist</a
+    >
+  </div>
+
   <!-- MORE PARMAZIP DETAILS -->
   <section>
     <div
@@ -774,7 +800,8 @@
         >
           <a
             rel="noopener noreferrer"
-            href="#"
+            href="https://ph-prelaunch-waitlist.getresponsesite.com/"
+            target="_blank"
             class="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900 bg-red-400 text-white"
             >Join the waitlist</a
           >
