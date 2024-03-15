@@ -11,10 +11,10 @@
           <img
             src="../assets/images/parmazip-logo-long.png"
             alt="Your Logo"
-            class="object-contain h-6 mt-1 w-auto"
+            class="object-contain h-8 mt-1 w-auto"
           />
         </a>
-        <ul class="items-stretch hidden space-x-3 lg:flex">
+        <!-- <ul class="items-stretch hidden space-x-3 lg:flex">
           <li class="flex">
             <a
               rel="noopener noreferrer"
@@ -48,7 +48,7 @@
               >About</a
             >
           </li>
-        </ul>
+        </ul> -->
       </div>
       <!-- Login button added here on the right -->
       <div class="items-center flex-shrink-0 hidden lg:flex">
