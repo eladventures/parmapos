@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white">
     <!-- Hero Panel -->
-    <section>
+    <section class="dark:bg-gray-800 dark:text-gray-100">
       <div
         class="max-w-8xl container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between"
       >
@@ -9,7 +9,7 @@
           class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-3xl xl:max-w-4xl lg:text-left"
         >
           <!-- Adjusted max-width here -->
-          <span class="block mb-2 text-xl"
+          <span class="block mb-2 dark:text-violet-400 text-xl"
             >Parmazip Pharmacy Management System (PMS)</span
           >
           <h1 class="text-5xl font-bold leadi sm:text-7xl">
@@ -27,7 +27,7 @@
               rel="noopener noreferrer"
               href="https://ph-prelaunch-waitlist.getresponsesite.com/"
               target="_blank"
-              class="px-8 py-3 text-lg font-semibold rounded bg-red-400 text-white"
+              class="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900 bg-red-400 text-white"
               >Join the waitlist</a
             >
           </div>
@@ -49,15 +49,15 @@
 
     <section class="bg-white mb-20">
       <div
-        class="container flex flex-col items-center px-4 py-16 pb-8 mx-auto text-center lg:pb-8 md:py-32 md:px-10 lg:px-32 bg-white"
+        class="container flex flex-col items-center px-4 py-16 pb-8 mx-auto text-center lg:pb-8 md:py-32 md:px-10 lg:px-32 dark:text-gray-900 bg-white"
       >
         <h1
-          class="-mt-10 font-bold text-6xl leadi sm:text-5xl xl:max-w-4xl font-inter text-gray-800"
+          class="-mt-10 font-bold text-6xl leadi sm:text-5xl xl:max-w-4xl dark:text-gray-900 font-inter text-gray-800"
         >
           Your Pharmacy Challenges
         </h1>
         <p
-          class="max-w-5xl mx-auto mt-4 -mb-10 text-xl font-inter text-gray-500"
+          class="max-w-5xl mx-auto mt-4 -mb-10 text-xl dark:text-gray-400 font-inter text-gray-500"
         >
           Getting things organized to grow and establish a pharmacy business can
           be tough.
@@ -117,7 +117,7 @@
 
     <!-- HERE COMES PARMAZIP -->
     <section>
-      <div>
+      <div class="dark:bg-violet-400">
         <!-- logo-center -->
         <div class="logo-container">
           <img
@@ -127,7 +127,7 @@
           />
         </div>
         <h2
-          class="text-3xl font-bold tracki text-center text-red-500 sm:text-2xl"
+          class="text-3xl font-bold tracki text-center text-red-500 sm:text-2xl dark:text-gray-50"
         >
           Here comes Parmazip!
         </h2>
@@ -136,7 +136,7 @@
           class="container flex flex-col items-center px-4 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900"
         >
           <h1
-            class="-mt-20 text-5xl font-bold leading-none sm:text-6xl xl:max-w-6xl"
+            class="-mt-20 text-5xl font-bold leading-none sm:text-6xl xl:max-w-6xl dark:text-gray-900"
           >
             The All-in-One <br />
             Pharmacy Management System
@@ -162,7 +162,7 @@
         </div>
       </div>
       <video
-        class="w-2/4 mx-auto -mt-20 lg:-mt-40 border-4 border-gray-700"
+        class="w-2/4 mx-auto -mt-20 lg:-mt-40 dark:bg-gray-500 border-4 border-gray-700"
         controls
         autoplay
         loop
@@ -267,16 +267,16 @@
         rel="noopener noreferrer"
         href="https://ph-prelaunch-waitlist.getresponsesite.com/"
         target="_blank"
-        class="px-8 py-3 text-lg font-semibold rounded bg-red-400 text-white"
+        class="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900 bg-red-400 text-white"
         >Join the waitlist</a
       >
     </div>
 
     <!-- DEMO VIDEO -->
     <section>
-      <div>
+      <div class="dark:bg-violet-400">
         <div
-          class="container flex flex-col items-center px-4 py-16 mx-auto text-center lg:pb-10 md:py-10 md:px-10 lg:px-32"
+          class="container flex flex-col items-center px-4 py-16 mx-auto text-center lg:pb-10 md:py-10 md:px-10 lg:px-32 dark:text-gray-900"
         >
           <div class="logo-container">
             <img
@@ -286,11 +286,13 @@
             />
           </div>
           <h2
-            class="text-3xl font-bold tracki text-center text-red-500 sm:text-2xl"
+            class="text-3xl font-bold tracki text-center text-red-500 sm:text-2xl dark:text-gray-50"
           >
             What's inside the Parmazip PMS?
           </h2>
-          <h1 class="text-5xl font-bold leadi sm:text-6xl xl:max-w-3xl">
+          <h1
+            class="text-5xl font-bold leadi sm:text-6xl xl:max-w-3xl dark:text-gray-900"
+          >
             How it Works
           </h1>
         </div>
@@ -299,17 +301,20 @@
 
     <!-- Whats INSIDE Parmazip -->
 
-    <section class="p-4 lg:p-8 mb-40">
+    <section class="p-4 lg:p-8 dark:bg-gray-800 dark:text-gray-100 mb-40">
       <div class="max-w-6xl container mx-auto space-y-12">
         <div class="flex flex-col overflow-hidden lg:flex-row">
           <img
             src="../assets/images/parmazip-how-1.png"
             alt=""
-            class="h-80 aspect-video"
+            class="h-80 dark:bg-gray-500 aspect-video"
           />
-          <div class="flex flex-col justify-center flex-1 p-6">
+          <div class="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900">
+            <!-- <span class="text-xs uppercase dark:text-gray-400"
+            >Join, it's free</span
+          > -->
             <h3 class="text-3xl font-bold">Key Pharmacy Tools</h3>
-            <p class="my-6">
+            <p class="my-6 dark:text-gray-400">
               Elevate your pharmacy experience with efficiency, accuracy, and
               top-tier customer care.
             </p>
@@ -325,13 +330,13 @@
           <img
             src="../assets/images/parmazip-how-2.png"
             alt=""
-            class="h-80 aspect-video"
+            class="h-80 dark:bg-gray-500 aspect-video"
           />
-          <div class="flex flex-col justify-center flex-1 p-6">
+          <div class="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900">
             <h3 class="text-3xl font-bold text-right">
               Powerful Point of Sale
             </h3>
-            <p class="my-6 text-right">
+            <p class="my-6 dark:text-gray-400 text-right">
               Revolutionize pharmacy operations with our specialized POS
               feature.
             </p>
@@ -347,11 +352,11 @@
           <img
             src="../assets/images/parmazip-how-3.png"
             alt=""
-            class="h-80 aspect-video"
+            class="h-80 dark:bg-gray-500 aspect-video"
           />
-          <div class="flex flex-col justify-center flex-1 p-6">
+          <div class="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900">
             <h3 class="text-3xl font-bold">Efficient Inventory Management</h3>
-            <p class="my-6">
+            <p class="my-6 dark:text-gray-400">
               Seamlessly track expiration dates with precision, ensuring product
               freshness and regulatory compliance.
             </p>
@@ -369,7 +374,7 @@
     <!-- AND ALL THE TOOLS -->
     <section class="mt-20">
       <div
-        class="-mt-40 px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 lg:py-20"
+        class="-mt-40 px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-lg md:px-24 lg:px-8 lg:py-20 dark:bg-gray-800 dark:text-gray-100"
       >
         <h2 class="mb-8 text-4xl font-bold leadi text-center">
           Plus all the tools made to simplify and automate your workflow and
@@ -380,7 +385,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -395,7 +400,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -410,7 +415,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -425,7 +430,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -440,7 +445,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -455,7 +460,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -470,7 +475,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -485,7 +490,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -500,7 +505,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -515,7 +520,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -530,7 +535,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -545,7 +550,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -560,7 +565,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current0"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -575,7 +580,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -590,7 +595,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -605,7 +610,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -620,7 +625,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -635,7 +640,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -650,7 +655,7 @@
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
-              class="w-5 h-5 fill-current"
+              class="w-5 h-5 fill-current dark:text-violet-400"
             >
               <path
                 d="M426.072,86.928A238.75,238.75,0,0,0,88.428,424.572,238.75,238.75,0,0,0,426.072,86.928ZM257.25,462.5c-114,0-206.75-92.748-206.75-206.75S143.248,49,257.25,49,464,141.748,464,255.75,371.252,462.5,257.25,462.5Z"
@@ -673,7 +678,7 @@
         rel="noopener noreferrer"
         href="https://ph-prelaunch-waitlist.getresponsesite.com/"
         target="_blank"
-        class="px-8 py-3 text-lg font-semibold rounded bg-red-400 text-white"
+        class="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900 bg-red-400 text-white"
         >Join the waitlist</a
       >
     </div>
@@ -681,18 +686,25 @@
     <!-- MORE PARMAZIP DETAILS -->
     <section>
       <div
-        class="container flex flex-col items-center px-4 py-16 pb-8 mx-auto text-center lg:pb-8 md:py-32 md:px-10 lg:px-32 bg-white"
+        class="container flex flex-col items-center px-4 py-16 pb-8 mx-auto text-center lg:pb-8 md:py-32 md:px-10 lg:px-32 dark:text-gray-900 bg-white"
       >
         <h1
-          class="-mt-10 font-bold text-6xl leadi sm:text-5xl xl:max-w-4xl font-inter text-gray-800"
+          class="-mt-10 font-bold text-6xl leadi sm:text-5xl xl:max-w-4xl dark:text-gray-900 font-inter text-gray-800"
         >
           Why Parmazip?
         </h1>
+        <!-- <p
+        class="max-w-5xl mx-auto mt-4 text-xl dark:text-gray-400 font-inter text-gray-500"
+      >
+        aka the 'All-in-One' Pharmacy Management System
+      </p> -->
       </div>
       <!-- 3 Descriptions -->
       <!-- CARDS HERE -->
 
-      <div class="max-w-7xl mx-auto text-gray-700">
+      <div
+        class="max-w-7xl mx-auto dark:bg-gray-800 dark:text-gray-100 text-gray-700"
+      >
         <div class="flex flex-col md:flex-row justify-center mt-4">
           <!--Card 1  -->
 
@@ -785,7 +797,7 @@
     </section>
 
     <!-- Join Panel -->
-    <section>
+    <section class="dark:bg-gray-800 dark:text-gray-100">
       <div
         class="max-w-7xl container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between"
       >
@@ -807,7 +819,7 @@
               rel="noopener noreferrer"
               href="https://ph-prelaunch-waitlist.getresponsesite.com/"
               target="_blank"
-              class="px-8 py-3 text-lg font-semibold rounded bg-red-400 text-white"
+              class="px-8 py-3 text-lg font-semibold rounded dark:bg-violet-400 dark:text-gray-900 bg-red-400 text-white"
               >Join the waitlist</a
             >
           </div>
@@ -826,7 +838,7 @@
 
     <!-- FOOTER -->
 
-    <div class="my-30">
+    <div class="dark:bg-gray-800 dark:text-gray-100 my-30">
       <footer
         class="footer items-center p-4 bg-neutral text-neutral-content px-40 h-200"
       >
@@ -834,7 +846,7 @@
           <img
             src="../assets/images/parmazip-logo-long.png"
             alt="Your Logo"
-            class="object-contain h-10 mt-1 w-auto"
+            class="object-contain h-10 mt-1 w-auto dark:text-default-400"
           />
           <!-- <p>EMPOWERING COMMUNITY PHARMACIES THROUGH TECHNOLOGY</p> -->
         </aside>
@@ -890,7 +902,9 @@
           </a>
         </nav>
       </footer>
-      <div class="py-6 text-xl text-center text-white bg-neutral h-50">
+      <div
+        class="py-6 text-xl text-center text-white dark:text-gray-400 bg-neutral h-50"
+      >
         EMPOWERING COMMUNITY PHARMACIES THROUGH TECHNOLOGY<br />
         © 2024 Parmazip. All rights reserved.
       </div>
