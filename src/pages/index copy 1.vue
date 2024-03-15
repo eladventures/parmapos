@@ -52,7 +52,7 @@
       <h1
         class="-mt-10 font-bold text-6xl leadi sm:text-5xl xl:max-w-4xl dark:text-gray-900 font-inter text-gray-800"
       >
-        Your Pharmacy Challenges
+        Why do you need a PMS?
       </h1>
       <p
         class="max-w-5xl mx-auto mt-4 -mb-10 text-xl dark:text-gray-400 font-inter text-gray-500"
@@ -113,9 +113,9 @@
     </generic-panel>
   </section>
 
-  <!-- HERE COMES PARMAZIP -->
-  <section>
-    <div class="dark:bg-violet-400">
+  <!-- SOLUTION -->
+  <generic-panel class="max-w-7xl border rounded-3xl border-gray-500">
+    <section class="dark:bg-gray-800 dark:text-gray-100">
       <!-- logo-center -->
       <div class="logo-container">
         <img
@@ -124,153 +124,207 @@
           class="logo mt-20"
         />
       </div>
-      <h2
-        class="text-3xl font-bold tracki text-center text-red-500 sm:text-2xl dark:text-gray-50"
-      >
-        Here comes Parmazip!
-      </h2>
-
       <div
-        class="container flex flex-col items-center px-4 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900"
+        class="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl"
       >
-        <h1
-          class="-mt-20 text-5xl font-bold leading-none sm:text-6xl xl:max-w-6xl dark:text-gray-900"
-        >
-          The All-in-One <br />
-          Pharmacy Management System
-        </h1>
-        <!-- <p class="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900">
-          Cupiditate minima voluptate temporibus quia? Architecto beatae esse ab
-          amet vero eaque explicabo!
-        </p> -->
-        <!-- <div class="flex flex-wrap justify-center">
-          <button
-            type="button"
-            class="px-8 py-3 m-2 text-lg font-semibold rounded dark:bg-gray-800 dark:text-gray-50"
+        <div>
+          <h2
+            class="-mt-10 text-3xl font-bold tracki text-center sm:text-5xl dark:text-gray-50"
           >
-            Get started
-          </button>
-          <button
-            type="button"
-            class="px-8 py-3 m-2 text-lg border rounded dark:border-gray-700 dark:text-gray-900"
-          >
-            Learn more
-          </button>
-        </div> -->
-      </div>
-    </div>
-    <img
-      src="../assets/images/parmazip-imac.png"
-      alt=""
-      class="w-2/4 mx-auto -mt-20 lg:-mt-40 dark:bg-gray-500"
-    />
-  </section>
-
-  <!-- EXPLAIN 4 CARDS -->
-  <generic-panel class="flex items-center" data-aos="zoom-in">
-    <div class="max-w-4xl mx-auto mt-12 text-center">
-      <!-- Center justified images with text -->
-      <div class="flex justify-center mt-4">
-        <div class="mx-5 w-1/2 text-left">
-          <!-- <img
-            src="../assets/images/easy-joey-c.png"
-            alt="Your Image Description"
-            class="w-full rounded"
-            data-aos="zoom-in"
-          /> -->
-          <h2 class="text-xl font-bold mt-2 mb-5 font-inter">
-            Designed for community pharmacies
+            Here comes Parmazip!
           </h2>
-          <p class="text-xl font-inter">
-            We built a system that addresses the unique needs of community
-            pharmacies with tools that empower and elevate your pharmacy
-            practice and business.
+          <p
+            class="max-w-3xl mx-auto mt-4 text-xl text-center dark:text-gray-400"
+          >
+            The 'All-in-One' Pharmacy Management System.
           </p>
         </div>
+        <div class="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+          <div>
+            <!-- <h3 class="text-2xl font-bold tracki sm:text-3xl dark:text-gray-50">
+              Ad vix debet docendi
+            </h3>
+            <p class="mt-3 text-lg dark:text-gray-400">
+              Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos
+              etiam regione ut, persius eripuit quo id. Sit te euismod
+              tacimates.
+            </p> -->
+            <div class="mt-5 space-y-12">
+              <div class="flex">
+                <div class="flex-shrink-0">
+                  <div
+                    class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      class="w-7 h-7"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <h4 class="text-3xl font-medium leadi dark:text-gray-50">
+                    Designed for community pharmacies
+                  </h4>
+                  <p class="mt-2 dark:text-gray-400">
+                    We built a system that addresses the unique needs of
+                    community pharmacies with tools that empower and elevate
+                    your pharmacy practice and business
+                  </p>
+                </div>
+              </div>
 
-        <div class="mx-5 w-1/2 text-left">
-          <!-- <img
-            src="../assets/images/easy-joey-a.png"
-            alt="Your Image Description"
-            class="w-full rounded"
-            data-aos="zoom-in"
-          /> -->
-          <h2 class="text-xl font-bold mt-2 mb-5 font-inter">
-            Powerful POS and inventory system
-          </h2>
-          <p class="text-xl font-inter">
-            It is equipped with a user-friendly interface that uses the latest
-            technologies and robust features to efficiently manage your retail
-            pharmacy.
-          </p>
+              <div class="flex">
+                <div class="flex-shrink-0">
+                  <div
+                    class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      class="w-7 h-7"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <h4 class="text-3xl font-medium leadi dark:text-gray-50">
+                    Manage medicines and prescriptions
+                  </h4>
+                  <p class="mt-2 dark:text-gray-400">
+                    Have all prescriptions and your customers’ data securely
+                    stored in one place so you can personalize patient care and
+                    serve them better.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex">
+                <div class="flex-shrink-0">
+                  <div
+                    class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      class="w-7 h-7"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <h4 class="text-3xl font-medium leadi dark:text-gray-50">
+                    Powerful POS and Inventory System
+                  </h4>
+                  <p class="mt-2 dark:text-gray-400">
+                    It is equipped with a user-friendly interface that uses the
+                    latest technologies and robust features to efficiently
+                    manage your retail pharmacy.
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex">
+                <div class="flex-shrink-0">
+                  <div
+                    class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-violet-400 dark:text-gray-900"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      class="w-7 h-7"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 13l4 4L19 7"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="ml-4">
+                  <h4 class="text-3xl font-medium leadi dark:text-gray-50">
+                    BIR-Accredited POS Provider
+                  </h4>
+                  <p class="mt-2 dark:text-gray-400">
+                    We made sure you stay compliant with the receipt and
+                    reporting requirements of the BIR to prevent any penalties
+                    and maintain accurate reporting.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div aria-hidden="true" class="mt-10 lg:mt-0">
+            <img
+              src="../assets/images/parmazip-fly.png"
+              alt=""
+              class="mx-auto dark:bg-gray-500"
+            />
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   </generic-panel>
-
-  <div class="max-w-4xl mx-auto mt-12 text-center">
-    <!-- Center justified images with text -->
-    <div class="flex justify-center mt-4">
-      <div class="mx-5 w-1/2 text-left">
-        <!-- <img
-            src="../assets/images/easy-joey-c.png"
-            alt="Your Image Description"
-            class="w-full rounded"
-            data-aos="zoom-in"
-          /> -->
-        <h2 class="text-xl font-bold mt-2 mb-5 font-inter">
-          Manage medicines and prescriptions
-        </h2>
-        <p class="text-xl font-inter">
-          Have all prescriptions and your customers’ data securely stored in one
-          place so you can personalize patient care and serve them better.
-        </p>
-      </div>
-
-      <div class="mx-5 w-1/2 text-left">
-        <!-- <img
-            src="../assets/images/easy-joey-a.png"
-            alt="Your Image Description"
-            class="w-full rounded"
-            data-aos="zoom-in"
-          /> -->
-        <h2 class="text-xl font-bold mt-2 mb-5 font-inter">
-          BIR-accredited POS provider
-        </h2>
-        <p class="text-xl font-inter">
-          We made sure you stay compliant with the receipt and reporting
-          requirements of the BIR to prevent any penalties and maintain accurate
-          reporting.
-        </p>
-      </div>
-    </div>
-  </div>
 
   <!-- DEMO VIDEO -->
   <section>
     <div class="dark:bg-violet-400">
       <div
-        class="container flex flex-col items-center px-4 py-16 mx-auto text-center lg:pb-10 md:py-10 md:px-10 lg:px-32 dark:text-gray-900"
+        class="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 dark:text-gray-900"
       >
-        <div class="logo-container">
-          <img
-            src="../assets/images/parmazip-logo.png"
-            alt="Logo"
-            class="logo mt-20"
-          />
-        </div>
-        <h2
-          class="text-3xl font-bold tracki text-center text-red-500 sm:text-2xl dark:text-gray-50"
-        >
-          What's inside the Parmazip PMS?
-        </h2>
         <h1
           class="text-5xl font-bold leadi sm:text-6xl xl:max-w-3xl dark:text-gray-900"
         >
           How it Works
         </h1>
+        <p class="mt-6 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900">
+          Point-of-sale and Pharmacy Management System rolled into one
+          purpose-built platform.
+        </p>
+        <div class="flex flex-wrap justify-center">
+          <button
+            type="button"
+            class="px-8 py-3 m-2 text-lg font-semibold bg-red-400 text-white rounded dark:bg-gray-800 dark:text-gray-50"
+          >
+            Join the Waitlist
+          </button>
+        </div>
       </div>
     </div>
+    <img
+      src="../assets/images/parmazip-video.png"
+      alt=""
+      class="w-2/4 mx-auto mb-12 -mt-30 rounded-lg shadow-md lg:-mt-40 dark:bg-gray-500"
+    />
   </section>
 
   <!-- Whats INSIDE Parmazip -->
@@ -312,10 +366,10 @@
             Revolutionize pharmacy operations with our specialized POS feature.
           </p>
           <ul class="list-disc pl-5 space-y-2 ml-auto w-max">
-            <li>Digital and printable receipts</li>
+            <li>Beautiful digital and printable receipts</li>
             <li>Record discounts and coverages</li>
             <li>Capture prescription information</li>
-            <li>Store customer data for future reference</li>
+            <li>Store customer info for future reference</li>
           </ul>
         </div>
       </div>
@@ -326,15 +380,14 @@
           class="h-80 dark:bg-gray-500 aspect-video"
         />
         <div class="flex flex-col justify-center flex-1 p-6 dark:bg-gray-900">
-          <h3 class="text-3xl font-bold">Efficient Inventory Management</h3>
+          <h3 class="text-3xl font-bold">Inventory Management that matters</h3>
           <p class="my-6 dark:text-gray-400">
             Seamlessly track expiration dates with precision, ensuring product
             freshness and regulatory compliance.
           </p>
           <ul class="list-disc pl-5 space-y-2">
-            <li>Set quantity thresholds and monitor stock levels</li>
-            <li>Track medication expiry</li>
             <li>Easily import products using AI</li>
+            <li>Track medication expirations</li>
             <li>Produce daily and weekly reports</li>
           </ul>
         </div>
@@ -605,7 +658,7 @@
               points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"
             ></polygon>
           </svg>
-          <span>Email support</span>
+          <span>PSC/PWD/Controlled substance tracking</span>
         </li>
         <li class="flex items-center space-x-2">
           <svg
@@ -635,7 +688,7 @@
               points="221.27 305.808 147.857 232.396 125.23 255.023 221.27 351.063 388.77 183.564 366.142 160.937 221.27 305.808"
             ></polygon>
           </svg>
-          <span>PSC/PWD/Controlled substance tracking</span>
+          <span>Email support</span>
         </li>
       </ul>
     </div>
@@ -762,12 +815,12 @@
         class="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-3xl xl:max-w-4xl lg:text-left"
       >
         <!-- Adjusted max-width here -->
-        <h1 class="text-4xl font-bold leadi sm:text-5xl">
-          Join our journey and get early access
+        <h1 class="text-4xl font-bold leadi sm:text-6xl">
+          "I'm running my pharmacy like a pro!"
         </h1>
         <p class="mt-6 mb-8 text-lg sm:mb-12">
-          Be among the first to experience an offline-based point-of-sale and
-          Pharmacy Management System in one.
+          And you can too! Get early access to experience an all-in-one pharmacy
+          that supports your business and professional practice.
         </p>
         <div
           class="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start"
@@ -831,11 +884,23 @@
           class="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4"
         >
           <div class="space-y-3">
-            <h3 class="tracki uppercase dark:text-gray-50">
-              Empowering community pharmacies through technology
-            </h3>
+            <h3 class="tracki uppercase dark:text-gray-50">Product</h3>
+            <ul class="space-y-1">
+              <li>
+                <a rel="noopener noreferrer" href="#">Features</a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="#">Integrations</a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="#">Pricing</a>
+              </li>
+              <li>
+                <a rel="noopener noreferrer" href="#">FAQ</a>
+              </li>
+            </ul>
           </div>
-          <!-- <div class="space-y-3">
+          <div class="space-y-3">
             <h3 class="tracki uppercase dark:text-gray-50">Company</h3>
             <ul class="space-y-1">
               <li>
@@ -845,27 +910,18 @@
                 <a rel="noopener noreferrer" href="#">Terms of Service</a>
               </li>
             </ul>
-          </div> -->
+          </div>
           <div class="space-y-3">
             <h3 class="uppercase dark:text-gray-50">Developers</h3>
             <ul class="space-y-1">
               <li>
-                <a rel="noopener noreferrer" href="#">Terms of Use</a>
+                <a rel="noopener noreferrer" href="#">Public API</a>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="#">Privacy Policy</a>
+                <a rel="noopener noreferrer" href="#">Documentation</a>
               </li>
               <li>
-                <a rel="noopener noreferrer" href="#">FAQs</a>
-              </li>
-              <li>
-                <a rel="noopener noreferrer" href="#">Blog</a>
-              </li>
-              <li>
-                <a rel="noopener noreferrer" href="#">About Us</a>
-              </li>
-              <li>
-                <a rel="noopener noreferrer" href="#">Contact Us</a>
+                <a rel="noopener noreferrer" href="#">Guides</a>
               </li>
             </ul>
           </div>
